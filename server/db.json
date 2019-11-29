@@ -1,0 +1,39 @@
+{
+  "drivers": [
+    {
+      "id": 1,
+      "name": "John",
+      "email": "john@g.com",
+      "phone": 3612345,
+      "city": "la",
+      "address": "Utcanév"
+    },
+    {
+      "id": 2,
+      "name": "Jack",
+      "email": "jack@g.com",
+      "phone": 36325235,
+      "city": "bp",
+      "address": "Utcanév2"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": 1,
+      "lp": "GOD-258",
+      "year": 2015,
+      "manufacturer": "VW",
+      "consumption": 7,
+      "engine": "Diesel"
+    }
+  ],
+  "fuelings": [
+    {
+      "id": 1,
+      "vehicle": 1,
+      "driver": 1,
+      "amount": 40,
+      "date": "2019-04-02"
+    }
+  ]
+}
